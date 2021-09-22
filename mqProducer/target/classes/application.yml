@@ -1,0 +1,11 @@
+spring: 
+  rabbitmq: 
+    host: b-de010d6a-bcaa-4055-a099-22949eb0e5e7.mq.ap-northeast-2.amazonaws.com
+    port: 5671
+    username: holidenty
+    password: holyedu123!@#
+    ssl:
+      enabled: true
+  listener:
+    simple:
+      acknowledge-mode: manual
